@@ -369,6 +369,8 @@ ol ol {
   background-image: url("/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  
 
   @media #{$media-size-phone} {
     margin-top: 0;
