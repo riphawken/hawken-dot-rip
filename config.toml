@@ -1,0 +1,24 @@
+baseURL = 'http://localhost/'
+languageCode = 'en-us'
+title = 'hawken is dead'
+theme = 'hugo-theme-hello-4s3ti'
+
+[params]
+backgroundImage = "background.jpg"
+homeTitle = "hawken is dead"
+homeSubtitle = "12.12.12 - 05.17.23"
+
+[params.logo]
+logoMark     = ">"
+logoText     = "hello pilot"
+logoHomeLink = "/"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Timeline"
+    url        = "posts/timeline/"
