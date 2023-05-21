@@ -37,6 +37,9 @@
   &-content {
     text-align: justify;
     margin-top: 30px;
+    
+    color: $dark-color-secondary;
+
   }
 
   &-cover {
@@ -131,8 +134,8 @@
       }
     
       @media (prefers-color-scheme: light) {
-        background: $light-background;
-        color: $light-color-secondary;
+        background: $dark-background;
+        color: $dark-color-secondary;
       }
     
       [data-theme=dark] & {
@@ -141,8 +144,8 @@
       }
     
       [data-theme=light] & {
-        background: $light-background;
-        color: $light-color-secondary;
+        background: $dark-background;
+        color: $dark-color-secondary;
       }
     }
 

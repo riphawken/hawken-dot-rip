@@ -4,23 +4,27 @@
   justify-content: center;
   position: relative;
   // Default
-  background: $light-background-header;
+  background: $dark-background-header;
   z-index: 5;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
+    color: $dark-color-secondary;
   }
 
   @media (prefers-color-scheme: light) {
-    background: $light-background-header;
+    background: $dark-background-header;
+    color: $dark-color-secondary;
   }
 
   [data-theme=dark] & {
     background: $dark-background-header;
+    color: $dark-color-secondary;
   }
 
   [data-theme=light] & {
-    background: $light-background-header;
+    background: $dark-background-header;
+    color: $dark-color-secondary;
   }
 
   &__right {
